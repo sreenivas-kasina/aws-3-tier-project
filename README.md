@@ -70,10 +70,13 @@ In this architecture, a public-facing Application Load Balancer forwards client 
 ## Step 10: Create CloudWatch Alarms Along with SNS
 
 ## Step 11: Create CloudTrail
+
+## step 12: AWS Certificate Manager (ACM)
+- Generate SSL Certificate and apply it to external load balancer and map domain name to external load balancer 
 ## Summary
 This architecture ensures high availability, scalability, and reliability by distributing the load, monitoring instance health, and scaling resources dynamically. The web tier serves the front-end and routes API calls, the application tier handles business logic and interacts with the database, and the database tier provides robust data storage and retrieval.
 
-## Step 12: Deleting the Entire Infrastructure
+## Step 13: Deleting the Entire Infrastructure
 - Delete CloudFront.
 - Delete CloudWatch alarms.
 - Delete records from Route 53.
